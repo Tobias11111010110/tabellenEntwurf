@@ -28,15 +28,11 @@ export class main {
     this.http
       .get<Event[]>('assets/realData.json')
       .subscribe((data: Event[]) => {
-        console.log(data);
         data.forEach((element) => {
           this.answer = false;
-          console.log(element);
           if (element.textbox.length !== 0) {
             element.textbox.forEach((elementT) => {
               if (elementT.answer.length !== 0) {
-                console.log(elementT.answer.length);
-
                 this.answer = true;
               }
             });
@@ -45,8 +41,6 @@ export class main {
             element.componentGroup.forEach((elementT) => {
               elementT.textbox.forEach((element) => {
                 if (element.answer.length !== 0) {
-                  console.log(element.answer.length);
-
                   this.answer = true;
                 }
               });
@@ -67,23 +61,23 @@ export class main {
         const curentTime = this.getCurrentDayAndTime();
         this.filterdData.forEach(async (element) => {
           let dateFromEvent = '';
-          let years: string[] = [];
-          years = element.AnmeldeFrist.split('-');
+          let years: string[] = element.AnmeldeFrist.split('T');
+          years = years[0].split('-');
           dateFromEvent = years[0] + years[1] + years[2];
-          if (Number(curentTime) === Number(dateFromEvent)) {
-            window.alert(
-              'Sie müssen heute noch ' +
-                element.Titel +
-                ' ausfüllen den es Läuft heute ab.'
-            );
-          }
-          if (Number(curentTime) > Number(dateFromEvent)) {
-            window.alert(
-              'Gestern ist die Anmelde Frist von ' +
-                element.Titel +
-                ' abgelaufen.'
-            );
-          }
+          // if (Number(curentTime) === Number(dateFromEvent)) {
+          //   window.alert(
+          //     'Sie müssen heute noch ' +
+          //       element.Titel +
+          //       ' ausfüllen den es Läuft heute ab.'
+          //   );
+          // }
+          // if (Number(curentTime) > Number(dateFromEvent)) {
+          //   window.alert(
+          //     'Gestern ist die Anmelde Frist von ' +
+          //       element.Titel +
+          //       ' abgelaufen.'
+          //   );
+          // }
         });
         this.sortDataByDate();
       });
@@ -186,7 +180,6 @@ export class main {
     this.searchInput = '';
     this.filterdData = [];
     const herkunft = event.srcElement.name;
-    console.log(herkunft);
 
     if (event.target.checked) {
       if (herkunft === 'mine') {
@@ -265,8 +258,8 @@ export class main {
       if (this.overdueChecked === true) {
         copyOfFilterd.forEach(async (element) => {
           let dateFromEvent = '';
-          let years: string[] = [];
-          years = element.AnmeldeFrist.split('-');
+          let years: string[] = element.AnmeldeFrist.split('T');
+          years = years[0].split('-');
           dateFromEvent = years[0] + years[1] + years[2];
           if (Number(curentTime) > Number(dateFromEvent)) {
             this.addEvent(element);
@@ -276,8 +269,8 @@ export class main {
       if (this.timeLeftChecked === true) {
         copyOfFilterd.forEach(async (element) => {
           let dateFromEvent = '';
-          let years: string[] = [];
-          years = element.AnmeldeFrist.split('-');
+          let years: string[] = element.AnmeldeFrist.split('T');
+          years = years[0].split('-');
           dateFromEvent = years[0] + years[1] + years[2];
           if (Number(curentTime) <= Number(dateFromEvent)) {
             this.addEvent(element);
@@ -307,7 +300,6 @@ export class main {
     this.sortDataByDate();
   }
   editeEvent(event: any, index: number) {
-    console.log(event, index);
     this.router.navigate(['/event', index]);
   }
   getCurrentDayAndTime() {

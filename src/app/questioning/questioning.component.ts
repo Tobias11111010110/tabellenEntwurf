@@ -20,7 +20,7 @@ export class QuestioningComponent {
   answersCG: any[] = [];
   componentGroup: ComponentGroup[] = [];
   componentGrouptextbox: Textbox[] = [];
-  CGTextbox: Combined[] = [];
+  lengthOfCG: number = 0;
 
   constructor(
     private http: HttpClient,
@@ -37,31 +37,10 @@ export class QuestioningComponent {
         this.listOfTextbox = this.listOfAllEvents[this.currentEventId].textbox;
         this.listOfAllEvents[this.currentEventId].componentGroup.forEach(
           (element) => {
-            element.textbox.forEach((element) => {
-              this.CGTextbox.push({
-                id: element.id,
-                length: element.length,
-                mustDo: element.mustDo,
-                type: element.type,
-                label: element.label,
-                componentGroupId: element.componentGroupId,
-                eventId: element.eventId,
-                answer: element.answer,
-                auditColumns: element.auditColumns,
-                uniqueId: element.uniqueId,
-                rowVersion: element.rowVersion,
-                componentGroup: true,
-              });
-            });
-          }
-        );
-        this.listOfAllEvents[this.currentEventId].componentGroup.forEach(
-          (element) => {
             this.componentGrouptextbox = element.textbox;
           }
         );
         this.componentGrouptextbox.forEach((element) => {
-          console.log(element.answer);
           if (element.answer.length === 0) {
             this.answersCG.push('');
           } else {
@@ -71,7 +50,6 @@ export class QuestioningComponent {
           }
         });
         this.listOfTextbox.forEach((element) => {
-          console.log(element.answer);
           if (element.answer.length === 0) {
             this.answersTextbox.push('');
           } else {
@@ -80,7 +58,7 @@ export class QuestioningComponent {
             });
           }
         });
-        console.log(this.answersCG);
+        this.lengthOfCG = this.componentGrouptextbox.length;
       });
   }
   save() {
@@ -88,10 +66,26 @@ export class QuestioningComponent {
     this.answersTextbox.forEach((element) => {
       answers.push(element);
     });
+    console.log(this.answersTextbox);
+
     this.answersCG.forEach((element) => {
       answers.push(element);
     });
+    console.log(this.answersCG);
+
     console.log('✌️answers --->', answers);
     this.router.navigate(['/']);
+  }
+  expand() {
+    for (let index = 0; index < this.lengthOfCG; index++) {
+      const element = this.componentGrouptextbox[index];
+      this.componentGrouptextbox.push(element);
+    }
+  }
+  subtract() {
+    this.componentGrouptextbox.splice(
+      this.componentGroup.length - this.lengthOfCG,
+      this.lengthOfCG
+    );
   }
 }
