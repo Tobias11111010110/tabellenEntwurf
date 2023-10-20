@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
-
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = 'tabellenEntwurf';
+export interface Event2 {
+  Titel: string;
+  Datum: string;
+  Antwort: boolean;
+  AnmeldeFrist: string;
+  Herkunft: string;
+  Matches: number;
+  Changes: number;
 }

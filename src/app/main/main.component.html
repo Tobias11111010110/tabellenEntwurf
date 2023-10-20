@@ -1,0 +1,131 @@
+<input type="text" [(ngModel)]="searchInput" />
+<button (click)="search()">🔍</button>
+<div class="filter">
+  <h3>Filter</h3>
+  <h4>Besitzer</h4>
+  <label for="mine">Meine Events</label>
+  <input
+    type="checkbox"
+    name="mine"
+    id="mine"
+    [(ngModel)]="mineChecked"
+    (change)="filter($event)"
+  />
+  <label for="part">Teilnehmer</label>
+  <input
+    type="checkbox"
+    name="part"
+    id="part"
+    [(ngModel)]="partChecked"
+    (change)="filter($event)"
+  />
+  <label for="allEvents">Alle Events</label>
+  <input
+    type="checkbox"
+    name="allEvents"
+    id="allEvents"
+    [(ngModel)]="allChecked"
+    (change)="filter($event)"
+  />
+  <h4>Rückmeldung</h4>
+  <label for="timeLeft">Noch Zeit</label>
+  <input
+    type="checkbox"
+    name="timeLeft"
+    id="timeLeft"
+    [(ngModel)]="timeLeftChecked"
+    (change)="filter($event)"
+  />
+  <label for="overdue">Überfällig</label>
+  <input
+    type="checkbox"
+    name="overdue"
+    id="overdue"
+    [(ngModel)]="overdueChecked"
+    (change)="filter($event)"
+  />
+  <label for="allSituation">alle Situationen</label>
+  <input
+    type="checkbox"
+    name="allSituation"
+    id="allSituation"
+    [(ngModel)]="allSituationChecked"
+    (change)="filter($event)"
+  />
+  <h4>Status</h4>
+  <label for="answer">Antwort gegeben</label>
+  <input
+    type="checkbox"
+    name="answer"
+    id="answer"
+    [(ngModel)]="answerChecked"
+    (change)="filter($event)"
+  />
+  <label for="noAnswer">keine Antwort gegeben</label>
+  <input
+    type="checkbox"
+    name="noAnswer"
+    id="noAnswer"
+    [(ngModel)]="noAnswerChecked"
+    (change)="filter($event)"
+  />
+  <label for="allStates">alle Situationen</label>
+  <input
+    type="checkbox"
+    name="allStates"
+    id="allStates"
+    [(ngModel)]="allStatesChecked"
+    (change)="filter($event)"
+  />
+</div>
+<table>
+  <thead>
+    <tr>
+      <th (click)="sortTable('Titel')"><h2>Title</h2></th>
+      <th (click)="sortTable('Datum')"><h2>Datum</h2></th>
+      <th (click)="sortTable('Antwort')"><h2>Antwort</h2></th>
+      <th (click)="sortTable('AnmeldeFrist')"><h2>Anmelde Frist</h2></th>
+      <th (click)="sortTable('Herkunft')"><h2>Herkunft</h2></th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngIf="filterdData">
+      <tr *ngFor="let data of filterdData; let i = index">
+        <td>
+          <Button class="edit" (click)="editeEvent($event, i)">📝</Button>
+          {{ data.Titel }}
+        </td>
+        <td>{{ data.Datum }}</td>
+        <ng-container *ngIf="data.Antwort === false">
+          <td>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </td>
+        </ng-container>
+        <ng-container *ngIf="data.Antwort === true">
+          <td>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
+            </svg>
+          </td>
+        </ng-container>
+        <td>{{ data.AnmeldeFrist }}</td>
+        <td>{{ data.Herkunft }}</td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>
+<h1 *ngIf="filterdData.length === 0">Es wurden Keine Events gefunden</h1>

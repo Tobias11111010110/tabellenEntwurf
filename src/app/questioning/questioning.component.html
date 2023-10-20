@@ -1,0 +1,100 @@
+<ng-container *ngFor="let input of listOfTextbox; let i = index">
+  <div class="grid-container">
+    <label>{{ input.label }}</label>
+    <ng-container *ngIf="input.type !== 'number'">
+      <ng-container *ngIf="input.mustDo === true">
+        <div class="grid-item">
+          <input
+            [attr.type]="input.type"
+            [attr.maxlength]="input.length"
+            [(ngModel)]="answersTextbox[i]"
+            required
+          />
+        </div>
+      </ng-container>
+      <ng-container *ngIf="input.mustDo === false">
+        <div class="grid-item">
+          <input
+            [attr.type]="input.type"
+            [attr.maxlength]="input.length"
+            [(ngModel)]="answersTextbox[i]"
+          />
+        </div>
+      </ng-container>
+    </ng-container>
+    <ng-container *ngIf="input.type === 'number'">
+      <ng-container *ngIf="input.mustDo === true">
+        <div class="grid-item">
+          <input
+            [attr.type]="input.type"
+            [max]="input.length"
+            [(ngModel)]="answersTextbox[i]"
+            required
+          />
+        </div>
+      </ng-container>
+      <ng-container *ngIf="input.mustDo === false">
+        <div class="grid-item">
+          <input
+            [attr.type]="input.type"
+            [max]="input.length"
+            [(ngModel)]="answersTextbox[i]"
+          />
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+</ng-container>
+<div class="componentGroup">
+  <ng-container
+    *ngFor="let componentGroup of componentGrouptextbox; let y = index"
+  >
+    <label
+      >{{ componentGroup.label }}
+      <ng-container *ngIf="componentGroup.type !== 'number'">
+        <ng-container *ngIf="componentGroup.mustDo === true">
+          <div class="grid-item">
+            <input
+              [attr.type]="componentGroup.type"
+              [attr.maxlength]="componentGroup.length"
+              [(ngModel)]="answersCG[y]"
+              required
+            />
+          </div>
+        </ng-container>
+        <ng-container *ngIf="componentGroup.mustDo === false">
+          <div class="grid-item">
+            <input
+              [attr.type]="componentGroup.type"
+              [attr.maxlength]="componentGroup.length"
+              [(ngModel)]="answersCG[y]"
+            />
+          </div>
+        </ng-container>
+      </ng-container>
+      <ng-container *ngIf="componentGroup.type === 'number'">
+        <ng-container *ngIf="componentGroup.mustDo === true"
+          >$
+          <div class="grid-item">
+            <input
+              [attr.type]="componentGroup.type"
+              [max]="componentGroup.length"
+              [(ngModel)]="answersCG[y]"
+              required
+            />
+          </div>
+        </ng-container>
+        <ng-container *ngIf="componentGroup.mustDo === false">
+          <div class="grid-item">
+            <input
+              [attr.type]="componentGroup.type"
+              [max]="componentGroup.length"
+              [(ngModel)]="answersCG[y]"
+            />
+          </div>
+        </ng-container>
+      </ng-container>
+    </label>
+  </ng-container>
+</div>
+<button (click)="save()">Save</button>

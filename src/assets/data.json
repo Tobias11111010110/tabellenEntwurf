@@ -1,0 +1,375 @@
+{
+  "Veranstaltungen": [
+    {
+      "Titel": "Event 1",
+      "Datum": "2023-10-16",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-01",
+      "Herkunft": "Max Mustermann"
+    },
+    {
+      "Titel": "Meeting A",
+      "Datum": "2023-10-17",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-02",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Seminar X",
+      "Datum": "2023-10-18",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-10-17",
+      "Herkunft": "Anna Schmidt"
+    },
+    {
+      "Titel": "Conference B",
+      "Datum": "2023-10-19",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-04",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Conference B",
+      "Datum": "2023-10-17",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-04",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Workshop 5",
+      "Datum": "2023-10-20",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-05",
+      "Herkunft": "Paula Davis"
+    },
+    {
+      "Titel": "Event 2",
+      "Datum": "2023-10-21",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-06",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Meeting C",
+      "Datum": "2023-10-22",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-07",
+      "Herkunft": "Laura Müller"
+    },
+    {
+      "Titel": "Seminar Y",
+      "Datum": "2023-10-23",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-08",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Conference M",
+      "Datum": "2023-10-24",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-09",
+      "Herkunft": "Jonas Wagner"
+    },
+    {
+      "Titel": "Workshop 7",
+      "Datum": "2023-10-25",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-10",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Event 3",
+      "Datum": "2023-10-26",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-11",
+      "Herkunft": "Sophie Becker"
+    },
+    {
+      "Titel": "Meeting D",
+      "Datum": "2023-10-27",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-12",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Seminar Z",
+      "Datum": "2023-10-28",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-13",
+      "Herkunft": "Felix Hartmann"
+    },
+    {
+      "Titel": "Conference N",
+      "Datum": "2023-10-29",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-14",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Workshop 8",
+      "Datum": "2023-10-30",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-15",
+      "Herkunft": "Lena Fischer"
+    },
+    {
+      "Titel": "Event 4",
+      "Datum": "2023-10-31",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-16",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Meeting E",
+      "Datum": "2023-11-01",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-17",
+      "Herkunft": "Simon Keller"
+    },
+    {
+      "Titel": "Seminar W",
+      "Datum": "2023-11-02",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-18",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Conference K",
+      "Datum": "2023-11-03",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-19",
+      "Herkunft": "Maria Lehmann"
+    },
+    {
+      "Titel": "Workshop 9",
+      "Datum": "2023-11-04",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-20",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Event 5",
+      "Datum": "2023-11-05",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-21",
+      "Herkunft": "Andreas Schmitt"
+    },
+    {
+      "Titel": "Meeting F",
+      "Datum": "2023-11-06",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-22",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Seminar Q",
+      "Datum": "2023-11-07",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-23",
+      "Herkunft": "Sabrina Müller"
+    },
+    {
+      "Titel": "Conference L",
+      "Datum": "2023-11-08",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-24",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Workshop 10",
+      "Datum": "2023-11-09",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-25",
+      "Herkunft": "Julian Becker"
+    },
+    {
+      "Titel": "Event 6",
+      "Datum": "2023-11-10",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-26",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Meeting G",
+      "Datum": "2023-11-11",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-27",
+      "Herkunft": "Carolin Schneider"
+    },
+    {
+      "Titel": "Seminar P",
+      "Datum": "2023-11-12",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-28",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Conference E",
+      "Datum": "2023-11-13",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-11-29",
+      "Herkunft": "Tobias Wagner"
+    },
+    {
+      "Titel": "Workshop 11",
+      "Datum": "2023-11-14",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-11-30",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Event 7",
+      "Datum": "2023-11-15",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-01",
+      "Herkunft": "Nina Müller"
+    },
+    {
+      "Titel": "Meeting H",
+      "Datum": "2023-11-16",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-12-02",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Seminar R",
+      "Datum": "2023-11-17",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-03",
+      "Herkunft": "Daniel Huber"
+    },
+    {
+      "Titel": "Conference F",
+      "Datum": "2023-11-18",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-04",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Workshop 12",
+      "Datum": "2023-11-19",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-12-05",
+      "Herkunft": "Sophia Schuster"
+    },
+    {
+      "Titel": "Event 8",
+      "Datum": "2023-11-20",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-06",
+      "Herkunft": "Patrick Müller"
+    },
+    {
+      "Titel": "Meeting I",
+      "Datum": "2023-11-21",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-12-07",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Seminar S",
+      "Datum": "2023-11-22",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-08",
+      "Herkunft": "Mara Fischer"
+    },
+    {
+      "Titel": "Conference G",
+      "Datum": "2023-11-23",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-09",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Workshop 13",
+      "Datum": "2023-11-24",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-12-10",
+      "Herkunft": "Michael Lehmann"
+    },
+    {
+      "Titel": "Event 9",
+      "Datum": "2023-11-25",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-11",
+      "Herkunft": "Lena Becker"
+    },
+    {
+      "Titel": "Meeting J",
+      "Datum": "2023-11-26",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-12-12",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Seminar T",
+      "Datum": "2023-11-27",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-13",
+      "Herkunft": "Jonas Müller"
+    },
+    {
+      "Titel": "Conference H",
+      "Datum": "2023-11-28",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-14",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Workshop 14",
+      "Datum": "2023-11-29",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-12-15",
+      "Herkunft": "Laura Wagner"
+    },
+    {
+      "Titel": "Event 10",
+      "Datum": "2023-11-30",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-12-16",
+      "Herkunft": "Michael Huber"
+    },
+    {
+      "Titel": "Meeting A",
+      "Datum": "2023-10-17",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-10-15",
+      "Herkunft": "von mir"
+    },
+    {
+      "Titel": "Event B",
+      "Datum": "2023-10-20",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-10-18",
+      "Herkunft": "anderer Ort"
+    },
+    {
+      "Titel": "Conference X",
+      "Datum": "2023-10-25",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-10-20",
+      "Herkunft": "Konferenzzentrum"
+    },
+    {
+      "Titel": "Workshop Y",
+      "Datum": "2023-10-28",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-10-26",
+      "Herkunft": "Schulungszentrum"
+    },
+    {
+      "Titel": "Event 1",
+      "Datum": "2023-10-15",
+      "Antwort": true,
+      "AnmeldeFrist": "2023-10-10",
+      "Herkunft": "Beispielort 1"
+    },
+    {
+      "Titel": "Konferenz Y",
+      "Datum": "2023-10-29",
+      "Antwort": false,
+      "AnmeldeFrist": "2023-10-25",
+      "Herkunft": "Beispielort 2"
+    }
+  ]
+}

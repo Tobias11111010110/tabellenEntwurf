@@ -1,0 +1,670 @@
+[
+  {
+    "id": 1,
+    "title": "Event 11",
+    "description": "Description for Event 11",
+    "location": "Location 11",
+    "files": "Files for Event 11",
+    "startOfEvent": "2023-10-28T18:00:00+02:00",
+    "endOfEvent": "2023-10-28T03:00:00+02:00",
+    "registrationDeadline": "2023-10-20T23:59:59+02:00",
+    "textbox": [
+      {
+        "id": 2,
+        "length": 10,
+        "mustDo": false,
+        "type": "number",
+        "label": "Number Input 2",
+        "componentGroupId": 0,
+        "eventId": 1,
+        "answer": [
+          {
+            "id": 2,
+            "answers": "Answer 4",
+            "textboxId": 2,
+            "auditColumns": null,
+            "uniqueId": "bc0e662c-71c8-42f1-9c15-8a215567ee4b",
+            "rowVersion": "AAAAAABi5Yk="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "cb4d55e5-4867-499d-b7ca-c0633b15eaef",
+        "rowVersion": "AAAAAABi5Xo="
+      }
+    ],
+    "componentGroup": [
+      {
+        "id": 1,
+        "eventId": 1,
+        "textbox": [
+          {
+            "id": 1,
+            "length": 100,
+            "mustDo": true,
+            "type": "text",
+            "label": "Text Input 1",
+            "componentGroupId": 1,
+            "eventId": 0,
+            "answer": [
+              {
+                "id": 1,
+                "answers": "Answer 1",
+                "textboxId": 1,
+                "auditColumns": null,
+                "uniqueId": "6d5c8d15-61a2-44c9-8515-2336b2239a7e",
+                "rowVersion": "AAAAAABi5Yg="
+              }
+            ],
+            "auditColumns": null,
+            "uniqueId": "7ce1fa7c-2f2a-4678-8127-b74bcc5b2cdd",
+            "rowVersion": "AAAAAABi5Xk="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "32e7b848-1bad-4673-b215-33396d84bece",
+        "rowVersion": "AAAAAABi5Wo="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "6e7e5da7-ffba-4408-a13c-699a9aa2ce89",
+    "rowVersion": "AAAAAABi5Vs="
+  },
+  {
+    "id": 2,
+    "title": "Event 12",
+    "description": "Description for Event 12",
+    "location": "Location 12",
+    "files": "Files for Event 12",
+    "startOfEvent": "2023-10-29T19:00:00+01:00",
+    "endOfEvent": "2023-10-29T04:00:00+01:00",
+    "registrationDeadline": "2023-10-21T23:59:59+02:00",
+    "textbox": [
+      {
+        "id": 5,
+        "length": 10,
+        "mustDo": true,
+        "type": "number",
+        "label": "Text Input 5",
+        "componentGroupId": 3,
+        "eventId": 0,
+        "answer": [],
+        "auditColumns": null,
+        "uniqueId": "bb927c8b-a6cf-4c56-be36-7039b7c0e842",
+        "rowVersion": "AAAAAABi5X0="
+      },
+      {
+        "id": 4,
+        "length": 8,
+        "mustDo": false,
+        "type": "text",
+        "label": "Number Input 4",
+        "componentGroupId": 0,
+        "eventId": 2,
+        "answer": [
+          {
+            "id": 4,
+            "answers": "Answer 8",
+            "textboxId": 4,
+            "auditColumns": null,
+            "uniqueId": "1e640650-0b2f-4614-8435-6a474248bf29",
+            "rowVersion": "AAAAAABi5Ys="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "29ac9a1a-4000-48dd-8c0d-49aff6131a59",
+        "rowVersion": "AAAAAABi5Xw="
+      }
+    ],
+    "componentGroup": [
+      {
+        "id": 3,
+        "eventId": 2,
+        "textbox": [
+          {
+            "id": 5,
+            "length": 10,
+            "mustDo": true,
+            "type": "number",
+            "label": "Text Input 5",
+            "componentGroupId": 3,
+            "eventId": 0,
+            "answer": [],
+            "auditColumns": null,
+            "uniqueId": "bb927c8b-a6cf-4c56-be36-7039b7c0e842",
+            "rowVersion": "AAAAAABi5X0="
+          },
+          {
+            "id": 5,
+            "length": 10,
+            "mustDo": false,
+            "type": "number",
+            "label": "Text Inasdasdput 5",
+            "componentGroupId": 3,
+            "eventId": 0,
+            "answer": [
+              {
+                "id": 5,
+                "answers": "10",
+                "textboxId": 5,
+                "auditColumns": null,
+                "uniqueId": "a7a944a2-e83c-4127-9881-39e5f1f3431d",
+                "rowVersion": "AAAAAABi5Yw="
+              }
+            ],
+            "auditColumns": null,
+            "uniqueId": "bb927c8b-a6cf-4c56-be36-7039b7c0e842",
+            "rowVersion": "AAAAAABi5X0="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "208287d7-0312-4b84-97d6-745562c788df",
+        "rowVersion": "AAAAAABi5Ww="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "c2eac67d-70f2-4556-a401-3a1e5ea3628f",
+    "rowVersion": "AAAAAABi5Vw="
+  },
+  {
+    "id": 3,
+    "title": "Event 13",
+    "description": "Description for Event 13",
+    "location": "Location 13",
+    "files": "Files for Event 13",
+    "startOfEvent": "2023-10-30T20:00:00+01:00",
+    "endOfEvent": "2023-10-30T05:00:00+01:00",
+    "registrationDeadline": "2023-10-22T23:59:59+02:00",
+    "textbox": [
+      {
+        "id": 6,
+        "length": 15,
+        "mustDo": false,
+        "type": "number",
+        "label": "Number Input 6",
+        "componentGroupId": 0,
+        "eventId": 3,
+        "answer": [
+          {
+            "id": 6,
+            "answers": "Answer 12",
+            "textboxId": 6,
+            "auditColumns": null,
+            "uniqueId": "7a32ed3a-79a2-46d4-9ece-a324ec437dc1",
+            "rowVersion": "AAAAAABi5Y0="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "616e6777-c0f7-4b0c-b01e-28a95d52fc5a",
+        "rowVersion": "AAAAAABi5X4="
+      }
+    ],
+    "componentGroup": [
+      {
+        "id": 5,
+        "eventId": 3,
+        "textbox": [
+          {
+            "id": 9,
+            "length": 90,
+            "mustDo": true,
+            "type": "text",
+            "label": "Text Input 9",
+            "componentGroupId": 5,
+            "eventId": 0,
+            "answer": [],
+            "auditColumns": null,
+            "uniqueId": "650aa001-cd76-48e5-b177-92e749370f6e",
+            "rowVersion": "AAAAAABi5YE="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "422d7033-7679-4004-8ce0-5d9822d76b6c",
+        "rowVersion": "AAAAAABi5W4="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "098a8ee3-894d-40ec-811b-339413a5f8f8",
+    "rowVersion": "AAAAAABi5V0="
+  },
+  {
+    "id": 4,
+    "title": "Event 14",
+    "description": "Description for Event 14",
+    "location": "Location 14",
+    "files": "Files for Event 14",
+    "startOfEvent": "2023-10-31T21:00:00+01:00",
+    "endOfEvent": "2023-10-31T06:00:00+01:00",
+    "registrationDeadline": "2023-10-23T23:59:59+02:00",
+    "textbox": [
+      {
+        "id": 8,
+        "length": 12,
+        "mustDo": false,
+        "type": "number",
+        "label": "Number Input 8",
+        "componentGroupId": 0,
+        "eventId": 4,
+        "answer": [
+          {
+            "id": 8,
+            "answers": "Answer 15",
+            "textboxId": 8,
+            "auditColumns": null,
+            "uniqueId": "6c99634c-cb1f-4994-aadb-2e9f5db2064f",
+            "rowVersion": "AAAAAABi5Y8="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "2f389ceb-1e47-4d5d-bc37-777be6362800",
+        "rowVersion": "AAAAAABi5YA="
+      }
+    ],
+    "componentGroup": [
+      {
+        "id": 7,
+        "eventId": 4,
+        "textbox": [
+          {
+            "id": 13,
+            "length": 30,
+            "mustDo": true,
+            "type": "text",
+            "label": "Text Input 13",
+            "componentGroupId": 7,
+            "eventId": 0,
+            "answer": [],
+            "auditColumns": null,
+            "uniqueId": "6f7fba7c-bd81-4aae-a12e-7e665442cb07",
+            "rowVersion": "AAAAAABi5YU="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "bf625738-4241-4edc-a04b-4513d35c0580",
+        "rowVersion": "AAAAAABi5XA="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "2351c6dd-255c-490e-a6da-a35f4ce33d8e",
+    "rowVersion": "AAAAAABi5V4="
+  },
+  {
+    "id": 5,
+    "title": "Event 15",
+    "description": "Description for Event 15",
+    "location": "Location 15",
+    "files": "Files for Event 15",
+    "startOfEvent": "2023-11-01T22:00:00+01:00",
+    "endOfEvent": "2023-11-01T07:00:00+01:00",
+    "registrationDeadline": "2023-10-24T23:59:59+02:00",
+    "textbox": [
+      {
+        "id": 10,
+        "length": 20,
+        "mustDo": false,
+        "type": "number",
+        "label": "Number Input 10",
+        "componentGroupId": 0,
+        "eventId": 5,
+        "answer": [],
+        "auditColumns": null,
+        "uniqueId": "aa3989f5-27b9-4e30-af8f-1a7ca51a5edd",
+        "rowVersion": "AAAAAABi5YI="
+      }
+    ],
+    "componentGroup": [
+      {
+        "id": 9,
+        "eventId": 5,
+        "textbox": [],
+        "auditColumns": null,
+        "uniqueId": "59056297-4d0c-412b-b46c-c4b0feb140e8",
+        "rowVersion": "AAAAAABi5XI="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "34cca52a-26ea-4a60-88e1-0ecaf53c8788",
+    "rowVersion": "AAAAAABi5V8="
+  },
+  {
+    "id": 6,
+    "title": "Event 6",
+    "description": "Description for Event 6",
+    "location": "Location 6",
+    "files": "Files for Event 6",
+    "startOfEvent": "2023-10-23T13:00:00+02:00",
+    "endOfEvent": "2023-10-23T22:00:00+02:00",
+    "registrationDeadline": "2023-10-15T23:59:59+02:00",
+    "textbox": [
+      {
+        "id": 12,
+        "length": 5,
+        "mustDo": false,
+        "type": "number",
+        "label": "Number Input 12",
+        "componentGroupId": 0,
+        "eventId": 6,
+        "answer": [],
+        "auditColumns": null,
+        "uniqueId": "dc73be57-3508-403d-b07d-487d7d6aaa16",
+        "rowVersion": "AAAAAABi5YQ="
+      }
+    ],
+    "componentGroup": [
+      {
+        "id": 11,
+        "eventId": 6,
+        "textbox": [],
+        "auditColumns": null,
+        "uniqueId": "dcd4bba1-7507-4a38-8bae-5a1d36d711b9",
+        "rowVersion": "AAAAAABi5XQ="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "f7d9b92f-0d38-4001-bc9e-01dfd3697950",
+    "rowVersion": "AAAAAABi5WA="
+  },
+  {
+    "id": 7,
+    "title": "Event 7",
+    "description": "Description for Event 7",
+    "location": "Location 7",
+    "files": "Files for Event 7",
+    "startOfEvent": "2023-10-24T14:00:00+02:00",
+    "endOfEvent": "2023-10-24T23:00:00+02:00",
+    "registrationDeadline": "2023-10-16T23:59:59+02:00",
+    "textbox": [
+      {
+        "id": 14,
+        "length": 25,
+        "mustDo": false,
+        "type": "number",
+        "label": "Number Input 14",
+        "componentGroupId": 0,
+        "eventId": 7,
+        "answer": [],
+        "auditColumns": null,
+        "uniqueId": "1d041d33-95b8-4711-9091-93ec19c906a4",
+        "rowVersion": "AAAAAABi5YY="
+      }
+    ],
+    "componentGroup": [
+      {
+        "id": 13,
+        "eventId": 7,
+        "textbox": [],
+        "auditColumns": null,
+        "uniqueId": "281ad3e3-c967-4bec-b2fe-93749248b421",
+        "rowVersion": "AAAAAABi5XY="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "8535c9f7-0657-484c-9f67-e81da16654f9",
+    "rowVersion": "AAAAAABi5WE="
+  },
+  {
+    "id": 8,
+    "title": "Event 8",
+    "description": "Description for Event 8",
+    "location": "Location 8",
+    "files": "Files for Event 8",
+    "startOfEvent": "2023-10-25T15:00:00+02:00",
+    "endOfEvent": "2023-10-25T00:00:00+02:00",
+    "registrationDeadline": "2023-10-17T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 15,
+        "eventId": 8,
+        "textbox": [],
+        "auditColumns": null,
+        "uniqueId": "3439fcaa-2d41-4d85-adfe-08a0706837f4",
+        "rowVersion": "AAAAAABi5Xg="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "5cb1bbc8-48fc-4b95-81d9-fc802effdaaa",
+    "rowVersion": "AAAAAABi5WI="
+  },
+  {
+    "id": 9,
+    "title": "Event 9",
+    "description": "Description for Event 9",
+    "location": "Location 9",
+    "files": "Files for Event 9",
+    "startOfEvent": "2023-10-26T16:00:00+02:00",
+    "endOfEvent": "2023-10-26T01:00:00+02:00",
+    "registrationDeadline": "2023-10-18T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 2,
+        "eventId": 9,
+        "textbox": [
+          {
+            "id": 3,
+            "length": 50,
+            "mustDo": true,
+            "type": "text",
+            "label": "Text Input 3",
+            "componentGroupId": 2,
+            "eventId": 0,
+            "answer": [
+              {
+                "id": 3,
+                "answers": "Answer 6",
+                "textboxId": 3,
+                "auditColumns": null,
+                "uniqueId": "25cef761-3134-419f-9c88-ec37cc6d0501",
+                "rowVersion": "AAAAAABi5Yo="
+              }
+            ],
+            "auditColumns": null,
+            "uniqueId": "6030bff7-a075-4341-b5d1-394b49b61eca",
+            "rowVersion": "AAAAAABi5Xs="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "83d91cca-d961-428b-b5c3-65fdf6f0d148",
+        "rowVersion": "AAAAAABi5Ws="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "38e98672-2541-40a4-9c0f-e7f1f04c0550",
+    "rowVersion": "AAAAAABi5WM="
+  },
+  {
+    "id": 10,
+    "title": "Event 10",
+    "description": "Description for Event 10",
+    "location": "Location 10",
+    "files": "Files for Event 10",
+    "startOfEvent": "2023-10-27T17:00:00+02:00",
+    "endOfEvent": "2023-10-27T02:00:00+02:00",
+    "registrationDeadline": "2023-10-19T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 4,
+        "eventId": 10,
+        "textbox": [
+          {
+            "id": 7,
+            "length": 60,
+            "mustDo": true,
+            "type": "text",
+            "label": "Text Input 7",
+            "componentGroupId": 4,
+            "eventId": 0,
+            "answer": [
+              {
+                "id": 7,
+                "answers": "Answer 14",
+                "textboxId": 7,
+                "auditColumns": null,
+                "uniqueId": "53e139b8-6c48-4fc8-92bc-f7e3bbb00aa1",
+                "rowVersion": "AAAAAABi5Y4="
+              }
+            ],
+            "auditColumns": null,
+            "uniqueId": "2932ddfd-8fca-434b-9f68-88a313d93760",
+            "rowVersion": "AAAAAABi5X8="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "181a6f35-670d-4f32-aa72-d1496ca22a80",
+        "rowVersion": "AAAAAABi5W0="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "6ec95c8c-dd7c-432d-8f4d-3084b279de83",
+    "rowVersion": "AAAAAABi5WQ="
+  },
+  {
+    "id": 11,
+    "title": "Event 1",
+    "description": "Description for Event 1",
+    "location": "Location 1",
+    "files": "Files for Event 1",
+    "startOfEvent": "2023-10-18T08:00:00+02:00",
+    "endOfEvent": "2023-10-18T17:00:00+02:00",
+    "registrationDeadline": "2023-10-10T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 6,
+        "eventId": 11,
+        "textbox": [
+          {
+            "id": 11,
+            "length": 45,
+            "mustDo": true,
+            "type": "text",
+            "label": "Text Input 11",
+            "componentGroupId": 6,
+            "eventId": 0,
+            "answer": [],
+            "auditColumns": null,
+            "uniqueId": "daf7aa28-ae4f-4e67-b1b5-f9d64a768f9c",
+            "rowVersion": "AAAAAABi5YM="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "aca5f965-695d-4942-8509-50c3da6d5113",
+        "rowVersion": "AAAAAABi5W8="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "beaed6a6-fc59-42bc-b4e7-17ee1691753f",
+    "rowVersion": "AAAAAABi5WU="
+  },
+  {
+    "id": 12,
+    "title": "Event 2",
+    "description": "Description for Event 2",
+    "location": "Location 2",
+    "files": "Files for Event 2",
+    "startOfEvent": "2023-10-19T09:00:00+02:00",
+    "endOfEvent": "2023-10-19T18:00:00+02:00",
+    "registrationDeadline": "2023-10-11T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 8,
+        "eventId": 12,
+        "textbox": [
+          {
+            "id": 15,
+            "length": 15,
+            "mustDo": true,
+            "type": "text",
+            "label": "Text Input 15",
+            "componentGroupId": 8,
+            "eventId": 0,
+            "answer": [],
+            "auditColumns": null,
+            "uniqueId": "fcb8efb7-517d-4c1f-bea2-092ea2099b51",
+            "rowVersion": "AAAAAABi5Yc="
+          }
+        ],
+        "auditColumns": null,
+        "uniqueId": "23f9765a-2303-455a-a04d-ea3ea7568f4a",
+        "rowVersion": "AAAAAABi5XE="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "13555e4e-8c45-4516-aae2-17e395c2a0d4",
+    "rowVersion": "AAAAAABi5WY="
+  },
+  {
+    "id": 13,
+    "title": "Event 3",
+    "description": "Description for Event 3",
+    "location": "Location 3",
+    "files": "Files for Event 3",
+    "startOfEvent": "2023-10-20T10:00:00+02:00",
+    "endOfEvent": "2023-10-20T19:00:00+02:00",
+    "registrationDeadline": "2023-10-12T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 10,
+        "eventId": 13,
+        "textbox": [],
+        "auditColumns": null,
+        "uniqueId": "0ab92dcf-0e2b-4c53-b05d-f4627e2bcba2",
+        "rowVersion": "AAAAAABi5XM="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "a23b3ab5-d451-4e4d-9dd3-e9a474f22b8b",
+    "rowVersion": "AAAAAABi5Wc="
+  },
+  {
+    "id": 14,
+    "title": "Event 4",
+    "description": "Description for Event 4",
+    "location": "Location 4",
+    "files": "Files for Event 4",
+    "startOfEvent": "2023-10-21T11:00:00+02:00",
+    "endOfEvent": "2023-10-21T20:00:00+02:00",
+    "registrationDeadline": "2023-10-13T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 12,
+        "eventId": 14,
+        "textbox": [],
+        "auditColumns": null,
+        "uniqueId": "44c37e19-9e5b-478e-a69d-e85296a8efee",
+        "rowVersion": "AAAAAABi5XU="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "615d071c-35f4-4f29-981d-c86292b6cb7d",
+    "rowVersion": "AAAAAABi5Wg="
+  },
+  {
+    "id": 15,
+    "title": "Event 5",
+    "description": "Description for Event 5",
+    "location": "Location 5",
+    "files": "Files for Event 5",
+    "startOfEvent": "2023-10-22T12:00:00+02:00",
+    "endOfEvent": "2023-10-22T21:00:00+02:00",
+    "registrationDeadline": "2023-10-14T23:59:59+02:00",
+    "textbox": [],
+    "componentGroup": [
+      {
+        "id": 14,
+        "eventId": 15,
+        "textbox": [],
+        "auditColumns": null,
+        "uniqueId": "ad5cb247-955b-49f1-b6db-1cf247cc6bc7",
+        "rowVersion": "AAAAAABi5Xc="
+      }
+    ],
+    "auditColumns": null,
+    "uniqueId": "ed8505a7-4119-4bb9-b86e-661bfb1ce0df",
+    "rowVersion": "AAAAAABi5Wk="
+  }
+]
